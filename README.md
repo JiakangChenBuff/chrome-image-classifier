@@ -1,6 +1,5 @@
 # Chrome Extension Multiclass CNN Demo
 ## NOTE: This extension will NOT work on chromebooks
-----
 
 Method 1 (Easy):
 ----
