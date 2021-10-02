@@ -33,7 +33,11 @@ function textContentFromPrediction(predictions) {
   if (!predictions || predictions.length < 1) {
     return `No prediction 🙁`;
   }
-  return `${predictions[0].className} with ${(predictions[0].probability*10).toFixed(2)}% confidence.`;
+  confidence = (predictions[0].probability * 10).toFixed(2);
+  if (confidence > 100) {
+    confidence = 100;
+  }
+  return `${predictions[0].className} with ${confidence}% confidence.`;
 }
 
 /**
