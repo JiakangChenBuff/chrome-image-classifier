@@ -1,4 +1,4 @@
-# Chrome Extension Multiclass CNN Demo
+# Chrome Extension Multiclass CNN Demo (AV AI 2021)
 ## NOTE: This extension will NOT work on chromebooks
 
 Method 1:
